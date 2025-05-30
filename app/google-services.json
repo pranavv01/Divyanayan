@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1094915043916",
+    "project_id": "divyanayann",
+    "storage_bucket": "divyanayann.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094915043916:android:03cd329ddc34a6f0dcbae9",
+        "android_client_info": {
+          "package_name": "com.example.divyanayan20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094915043916-cd43n16l04s0r4h894h5gp6icfh8fvi5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.divyanayan20",
+            "certificate_hash": "27937218bdf9af6069a9873d46dcf49b740c81b7"
+          }
+        },
+        {
+          "client_id": "1094915043916-1pf1qlg9homdvptbdq5223hmsebdpu2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAyfvYPocA0CtDfkwY5R57n-yEiZQFeI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094915043916-1pf1qlg9homdvptbdq5223hmsebdpu2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

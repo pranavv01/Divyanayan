@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/user"
+        android:id="@+id/navProfile"
+        android:title="Profile"/>
+
+    <group
+        android:id="@+id/group1">
+
+        <item
+            android:icon="@drawable/baseline_settings_24"
+            android:id="@+id/navsetting"
+            android:title="Setting" />
+
+        <item
+            android:icon="@drawable/language"
+            android:id="@+id/navLang"
+            android:title="Language" />
+
+    </group>
+
+    <group
+        android:id="@+id/group2">
+
+        <item
+            android:icon="@drawable/help"
+            android:id="@+id/navFAQs"
+            android:title="FAQs" />
+
+        <item
+            android:icon="@drawable/doc"
+            android:id="@+id/navTerms"
+            android:title="Terms and Conditions" />
+
+    </group>
+
+
+    <item
+        android:icon="@drawable/phone"
+        android:id="@+id/navContact"
+        android:title="Help Center" />
+
+</menu>
