@@ -1,4 +1,4 @@
-package com.example.divyanayan20;
+package com.example.divyanayan20.controller;
 
 import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
@@ -15,6 +15,8 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.example.divyanayan20.R;
 
 public class ProfileActivity extends AppCompatActivity {
 

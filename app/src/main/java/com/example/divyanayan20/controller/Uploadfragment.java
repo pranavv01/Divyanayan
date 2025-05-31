@@ -1,4 +1,4 @@
-package com.example.divyanayan20;
+package com.example.divyanayan20.controller;
 
 import android.Manifest;
 import android.content.Intent;
@@ -26,6 +26,9 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.divyanayan20.R;
+import com.example.divyanayan20.controller.ExtractTextActivity;
+import com.example.divyanayan20.view.FileListAdapter;
 import com.google.mlkit.vision.common.InputImage;
 import com.google.mlkit.vision.text.TextRecognition;
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions;

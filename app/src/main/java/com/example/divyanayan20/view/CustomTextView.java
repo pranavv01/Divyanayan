@@ -1,4 +1,4 @@
-package com.example.divyanayan20;
+package com.example.divyanayan20.view;
 
 import android.animation.ValueAnimator;
 import android.content.Context;

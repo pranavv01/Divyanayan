@@ -1,4 +1,4 @@
-package com.example.divyanayan20;
+package com.example.divyanayan20.controller;
 
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
@@ -6,6 +6,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.divyanayan20.R;
+
 import java.util.Locale;
 
 public class ExtractTextActivity extends AppCompatActivity {

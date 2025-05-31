@@ -1,4 +1,4 @@
-package com.example.divyanayan20;
+package com.example.divyanayan20.controller;
 
 import android.Manifest;
 import android.content.Intent;
@@ -8,11 +8,12 @@ import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import android.widget.Button;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import com.example.divyanayan20.R;
+import com.example.divyanayan20.view.MainUI;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;

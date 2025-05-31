@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainUI">
+    tools:context=".view.MainUI">
 
     <!-- Toolbar Section -->
     <androidx.appcompat.widget.Toolbar
@@ -29,7 +29,7 @@
         android:id="@+id/fragment_container"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:name="com.example.divyanayan20.ReadFragment"
+        android:name="com.example.divyanayan20.controller.ReadFragment"
         app:layout_constraintTop_toBottomOf="@id/toolbar"
         app:layout_constraintBottom_toTopOf="@id/constraintLayout2"
         app:layout_constraintStart_toStartOf="parent"

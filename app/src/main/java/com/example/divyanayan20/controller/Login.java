@@ -1,14 +1,16 @@
-package com.example.divyanayan20;
+package com.example.divyanayan20.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class TermsActivity extends AppCompatActivity {
+import com.example.divyanayan20.R;
+
+public class Login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_terms);
+        setContentView(R.layout.activity_login);
     }
 }

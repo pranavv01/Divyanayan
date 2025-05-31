@@ -1,5 +1,5 @@
 // TesseractProcessor.java
-package com.example.divyanayan20;
+package com.example.divyanayan20.model;
 
 import android.content.Context;
 import android.graphics.Bitmap;

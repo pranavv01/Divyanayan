@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ExtractTextActivity">
+    tools:context=".controller.ExtractTextActivity">
 
     <!-- Rounded Text Display Card -->
     <androidx.cardview.widget.CardView

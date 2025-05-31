@@ -1,4 +1,4 @@
-package com.example.divyanayan20;
+package com.example.divyanayan20.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
@@ -10,9 +10,17 @@ import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
-import android.view.View;
 import android.widget.ImageView;
 
+import com.example.divyanayan20.controller.ContactusActivity;
+import com.example.divyanayan20.controller.FAQsActivity;
+import com.example.divyanayan20.controller.LanguageActivity;
+import com.example.divyanayan20.controller.ProfileActivity;
+import com.example.divyanayan20.R;
+import com.example.divyanayan20.controller.ReadFragment;
+import com.example.divyanayan20.controller.SettingActivity;
+import com.example.divyanayan20.controller.TermsActivity;
+import com.example.divyanayan20.controller.Uploadfragment;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.button.MaterialButton;
 

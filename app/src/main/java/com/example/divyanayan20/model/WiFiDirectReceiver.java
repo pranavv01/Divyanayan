@@ -1,4 +1,4 @@
-package com.example.divyanayan20;
+package com.example.divyanayan20.model;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -7,6 +7,8 @@ import android.net.wifi.p2p.*;
 import android.os.Environment;
 import android.util.Log;
 import android.widget.Toast;
+
+import com.example.divyanayan20.controller.MainActivity;
 
 import java.io.File;
 import java.io.FileOutputStream;

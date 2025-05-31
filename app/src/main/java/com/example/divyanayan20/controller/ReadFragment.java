@@ -1,4 +1,4 @@
-package com.example.divyanayan20;
+package com.example.divyanayan20.controller;
 
 import android.Manifest;
 import android.app.ProgressDialog;
@@ -34,6 +34,8 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
+import com.example.divyanayan20.R;
+import com.example.divyanayan20.controller.ExtractTextActivity;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.mlkit.vision.common.InputImage;
 import com.google.mlkit.vision.text.TextRecognizer;

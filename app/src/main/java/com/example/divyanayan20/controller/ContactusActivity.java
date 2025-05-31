@@ -1,14 +1,16 @@
-package com.example.divyanayan20;
+package com.example.divyanayan20.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class FAQsActivity extends AppCompatActivity {
+import com.example.divyanayan20.R;
+
+public class ContactusActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_faqs);
+        setContentView(R.layout.activity_contactus);
     }
 }

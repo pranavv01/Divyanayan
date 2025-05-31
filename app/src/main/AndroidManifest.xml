@@ -33,40 +33,40 @@
         android:theme="@style/Theme.Divyanayan20"
         tools:targetApi="31">
         <activity
-            android:name=".OcrProcessingActivity"
+            android:name=".controller.OcrProcessingActivity"
             android:exported="false" />
         <activity
-            android:name=".ExtractTextActivity"
+            android:name=".controller.ExtractTextActivity"
             android:exported="false" />
         <activity
-            android:name=".ContactusActivity"
+            android:name=".controller.ContactusActivity"
             android:exported="false" />
         <activity
-            android:name=".TermsActivity"
+            android:name=".controller.TermsActivity"
             android:exported="false" />
         <activity
-            android:name=".FAQsActivity"
+            android:name=".controller.FAQsActivity"
             android:exported="false" />
         <activity
-            android:name=".LanguageActivity"
+            android:name=".controller.LanguageActivity"
             android:exported="false" />
         <activity
-            android:name=".SettingActivity"
+            android:name=".controller.SettingActivity"
             android:exported="false" />
         <activity
-            android:name=".ProfileActivity"
+            android:name=".controller.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".Signup"
+            android:name=".controller.Signup"
             android:exported="true" />
         <activity
-            android:name=".MainUI"
+            android:name=".view.MainUI"
             android:exported="true" />
         <activity
-            android:name=".Login"
+            android:name=".controller.Login"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".controller.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
