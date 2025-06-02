@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".controller.ExtractTextActivity">
 
     <!-- Rounded Text Display Card -->
@@ -33,21 +34,22 @@
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:lineSpacingExtra="6dp"
-                android:fontFamily="sans-serif-medium" />
+                android:fontFamily="sans-serif" />
         </ScrollView>
     </androidx.cardview.widget.CardView>
 
     <!-- Aesthetic TTS Toggle Button -->
     <ToggleButton
         android:id="@+id/ttsButton"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_marginBottom="36dp"
+        android:layout_width="57dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="24dp"
         android:background="@drawable/play_button"
+        android:backgroundTint="@color/white"
         android:textOff=""
         android:textOn=""
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
